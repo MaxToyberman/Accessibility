@@ -1,3 +1,5 @@
 rootProject.name = 'Accessibility'
+include ':react-native-accessibility'
+project(':react-native-accessibility').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-accessibility/android')
 
 include ':app'
